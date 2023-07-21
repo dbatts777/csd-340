@@ -1,0 +1,63 @@
+/* Batts_Mod3_3.css */
+
+h1 {
+  text-align: center;
+}
+
+#left-div {
+    width: 45%;
+    float: left;
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    font-weight: 300;
+    border: 1px solid red;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+#right-div {
+    width: 45%;
+    float: right;
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    font-weight: 300;
+    border: 1px dashed red;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+#last-div {
+  width: 100%;
+  margin-top: 60%;
+}
+
+h3{
+  font-weight: 500;
+}
+ul,
+ol {
+  font-weight: 300;
+}
+
+ol {
+  border: 1px solid red;
+  border-radius: 15px;
+  padding: 10px;
+  list-style: inside;
+  list-style-position: inside;
+}
+
+ul {
+  border: 1px dashed red;
+  border-radius: 15px;
+  padding: 10px;
+  list-style: upper-roman;
+  list-style-position: inside;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.bottom {
+  float: right;
+  margin-bottom: 20px;
+}
